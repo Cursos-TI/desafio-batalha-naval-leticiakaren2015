@@ -34,10 +34,10 @@ int main() {
 
 
     // 5. Exibir o tabuleiro no console
-    printf("=== Tabuleiro Batalha Naval ===\n");
+    printf("=== Tabuleiro Batalha Naval ===\n\n");
     for(int i= 0; i < TAM_TABULEIRO; i++){
         for(int j = 0; j < TAM_TABULEIRO; j++) {
-            printf("%d", tabuleiro[i][j]);  // imprimir o valor da posição
+            printf("%2d", tabuleiro[i][j]);  // imprimir o valor da posição
         }
         printf("\n");  // quebra de linha no final de cada linha da matrix
     }
